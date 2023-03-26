@@ -5,14 +5,8 @@ import {
   MenuUnfoldOutlined, MailOutlined, SettingOutlined, AppstoreOutlined, DesktopOutlined
 } from '@ant-design/icons';
 import { Outlet, useLocation, useNavigate } from 'react-router-dom';
-import { ArrowDownOutlined, ArrowUpOutlined } from '@ant-design/icons';
-import { Card, Statistic } from 'antd';
-
-
-
 
 const { Header, Sider, Content } = Layout;
-
 
 export default function Dashboard() {
 

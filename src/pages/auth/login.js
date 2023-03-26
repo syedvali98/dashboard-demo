@@ -1,4 +1,4 @@
-import { Card, Col, Row, theme, Button, Checkbox, Form, Input, Typography } from 'antd'
+import { Card, Col, Row, Button, Checkbox, Form, Input, Typography } from 'antd'
 import React from 'react'
 import { useNavigate } from 'react-router-dom';
 
@@ -7,10 +7,6 @@ const { Title } = Typography;
 export default function Login() {
 
     const nav = useNavigate();
-
-    const {
-        token: { loginBgColor },
-    } = theme.useToken();
 
     const onFinish = (values) => {
         console.log('Success:', values);

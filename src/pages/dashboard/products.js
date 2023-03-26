@@ -1,6 +1,6 @@
 import { Col, Row, Table, Input, Space, Button } from 'antd'
 import React, { useRef, useState } from 'react'
-import { TeamOutlined, DollarOutlined, ShoppingCartOutlined, DropboxOutlined, SearchOutlined } from '@ant-design/icons';
+import { SearchOutlined } from '@ant-design/icons';
 import Highlighter from 'react-highlight-words';
 import { useNavigate } from 'react-router-dom';
 

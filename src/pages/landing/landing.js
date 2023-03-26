@@ -10,7 +10,7 @@ export default function Landing() {
         else{
             nav("/login")
         }
-    }, [])
+    }, [nav])
     return (
         <div>...loading</div>
     )
